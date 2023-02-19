@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 html{
-    background-image: url(images/bg.jpg);
+    background-image: url(bg.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
