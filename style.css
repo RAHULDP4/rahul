@@ -10,7 +10,6 @@ html{
 .nav{
     display: flex;
     flex-direction: row;
-    position: absolute;
     background-color: rgb(41, 41, 41);
     top: 0;
     left: 0;
@@ -162,6 +161,7 @@ html{
     text-align: center;
     font-size: 40px;
     margin-top: 70px;
+    margin-bottom: 70px;
 }
 .icons{
     display: flex;
@@ -189,4 +189,102 @@ html{
 }
 .ext{
     flex:  1
+}
+@media screen and (max-width: 600px)
+{
+    .nav-but{
+        width: 40px;
+        font-size: 7px;
+        padding: 10px;
+    }
+    .nav-but:hover{
+        width: 70px;
+    }
+    .nav-s{
+        width: 100px;
+    }
+    .info{
+        padding-top: 100px;
+        height: 50px;
+    }
+    .des{
+        font-size: 10px;
+        width: 200px;
+        height: 50px;
+    }
+    .des1{
+        margin-left: 30px;
+        width: 200px;
+    }
+    .name{
+        margin-top: 10px;
+    }
+    .edu-h{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .des-image{
+        margin-left: 10px;
+    }
+    .des-dp{
+        width: 100px;
+        height: 120px;
+        object-fit: contain;
+    }
+    .edu-h{
+        margin-left: 10px;
+        padding-top: 20px;
+        font-size: 30px;
+        width: 200px;
+    }
+    .edu{
+        margin-left: 15px;
+        width: 280px;
+        height: 130px;
+        font-size: 10px;
+        border-radius: 10px;
+        padding-top: 15px;
+        
+    }
+    .ski-h{
+        margin-left: 200px;
+        padding-top: 20px;
+        font-size: 30px;
+        width: 100px;
+    }
+    .ski{
+        margin-left: 100px;
+        width: 200px;
+        height: 70px;
+        font-size: 10px;
+        border-radius: 10px;
+        padding-top: 20px;
+        
+    }
+    .me-h{
+        margin-left: 10px;
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    .me{
+        margin-left: 15px;
+        width: 280px;
+        height: 100px;
+        font-size: 10px;
+        border-radius: 10px;
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+    .icon-set{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+    }
+    .con{
+        font-size: 10px;
+        margin: 20px;
+    }
+    .icon-adj{
+        width: 10px;
+    }
 }
